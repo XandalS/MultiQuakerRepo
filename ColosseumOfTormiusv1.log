@@ -1,0 +1,84 @@
+---- qbsp / ericw-tools v0.18.1 ----
+Input file: ColosseumOfTormiusv1.map
+Output file: ColosseumOfTormiusv1.bsp
+
+---- LoadMapFile ----
+         2045 faces
+          333 brushes
+          161 entities
+           42 unique texnames
+          552 texinfo
+
+Opened WAD: ../wads/prototype_1_3.wad
+Opened WAD: ../wads/kdmtex/kdmtex.wad
+Opened WAD: ../wads/doom2textures/doom2.wad
+Processing hull 0...
+---- Brush_LoadEntity ----
+          329 brushes
+          396 planes
+---- CSGFaces ----
+         2021 brushfaces
+         1515 csgfaces
+          920 mergedfaces
+---- SolidBSP ----
+         1330 split nodes
+          511 solid leafs
+          820 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         4416 leaffaces
+         3878 nodefaces
+---- Portalize ----
+          820 vis leafs
+          820 vis clusters
+         2137 vis portals
+---- FillOutside ----
+          362 outleafs
+---- MergeAll ----
+          841 mergefaces
+---- SolidBSP ----
+          617 split nodes
+          326 solid leafs
+          292 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2524 leaffaces
+         2106 nodefaces
+---- Portalize ----
+          292 vis leafs
+          292 vis clusters
+          752 vis portals
+---- Tjunc ----
+         1675 world edges
+         6970 edge points
+         1730 edges added by tjunctions
+            0 faces added by tjunctions
+---- MakeFaceEdges ----
+---- GrowRegions ----
+Processing hull 1...
+Processing hull 2...
+---- WriteBSPFile ----
+Wrote ColosseumOfTormiusv1.bsp
+          981 planes            19620
+         2954 vertexes          35448
+          641 nodes             15384
+          384 texinfo           15360
+         2146 faces             42920
+         1806 clipnodes         14448
+          317 leafs              8876
+         2564 marksurfaces       5128
+        10238 surfedges         40952
+         5124 edges             20496
+           42 textures         622012
+              lightdata             0
+              visdata               0
+              entdata           11985
+
+0.648 seconds elapsed
+Peak memory usage: 15942084 (15.2M)
